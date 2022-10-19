@@ -1,0 +1,45 @@
+HTML = Conteudo -> textos,imagens,videos,tabelas
+CSS  = Desgin   -> cores,sombras,tamanhos,posicionamentos
+JS   = interacoes -> menus, animacoes,popups,validacoes
+
+Conteudo em html                                                                                            Estilo em css
+ ABRIR TAG                     Fechar TAG                                                          h1 {
+     ^                                               ^                                                                              font-family: arial;
+ <h1> exemplo de titulo </h1>                                                                          font-size: 20pt;
+ <p>  exemplo de paragrafo </p>                                                                   color: blue;
+                                                                                                                                      }
+  Abrir TAG de imagens, nao existi fechamento de tag  
+           ^
+ <img src="foto.png" alt="Exemplo de foto">
+                                               ^                                   ^
+                                            parametro              valor
+     
+
+estrutura basica de documento HTML
+            Este site vai ser em html
+                    ^
+      <!DOCTYPE html>
+      <html lang="pt-br">   Meu site vai ser em portugues
+      |       <head>
+              |    <meta charset="UTF-8">
+      |       |    <meta name="viewport"
+      |       |     content="width=device-width,
+      |       |     initial-scale=1.0">
+      |       |     <title>document</title>
+      |       | 
+             </head>
+       |     <body>
+       |      |       <h1>Olá, Mundo! </h1>
+              | 
+       |      </body>
+       |
+       </html>
+
+                                                                          FRONT-end  e Back-end
+                                                                                 ^                          ^
+                                                                            cLIENTE             SERVIDOR
+
+
+
+      
+       |
